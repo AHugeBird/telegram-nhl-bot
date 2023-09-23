@@ -11,7 +11,7 @@ from threading import Thread
 from PIL import Image, ImageFont, ImageDraw
 
 # Get credentials
-BOT_TOKEN = ${{ secrets.BOT_TOKEN }}
+BOT_TOKEN = os.environ.get('BOT_TOKEN')
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Import list of teams and abbreviations
