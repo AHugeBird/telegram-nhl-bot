@@ -1,3 +1,15 @@
 NHL Telegram Bot
 
 This is a hobby project for posting the schedule of NHL games each day in a telegram group. Always and forever a work in progress.
+
+-----
+
+bot.py is the main file through which the bot runs.
+
+If you're gonna build your own bot, you'll need to talk to @BotFather on Telegram to get your own credentials.
+
+Schedule graphics are built using pre-made graphics for each team located in Home and Away Logos folders.
+
+They also use all the other images that are scattered loose in the main directory here. They probably should be in folders, but this seems more exciting.
+
+How you set it up to run automatically is dependent on your workflow. I use fly.io to host it, now that Heroku no longer offers a free tier.
